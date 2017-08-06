@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         supportActionBar!!.setIcon(R.mipmap.ic_launcher)
 
         //Toast.makeText(this, "Hola soy un Toast!!", Toast.LENGTH_SHORT).show()
-        longToast("Hola soy un Anko Toast!!!")
+        longToast(getString(R.string.main_longtoast))
 
         buttonCalcular.setOnClickListener {
             val añoNacimiento: Int = editText.text.toString().toInt()
@@ -31,20 +31,20 @@ class MainActivity : AppCompatActivity() {
             startActivity<SecondActivity>("edad" to miEdad)
         }
         btnAnko.onClick {
-            alert("Hola, ¿te gusta el Anko Alert?", "ALERT"){
-                yesButton { longToast(":D Súper!") }
-                noButton { toast("oh..") }
+            alert(getString(R.string.main_alert_mensaje), getString(R.string.main_alert_titulo)){
+                yesButton { longToast(getString(R.string.main_alert_btn_positivo)) }
+                noButton { toast(getString(R.string.main_alert_btn_negtivo)) }
             }.show()
         }
 
         btnLista.onClick {
             val paises = listOf("MEX", "ESP", "ARG", "BOL", "CHL", "COL")
-            selector("¿De dónde eres?", paises, {dialogInterface, i ->
-                longToast("Genial!, entonces vives en ${paises[i]}, cierto?") })
+            selector(getString(R.string.main_alert_lista), paises, { dialogInterface, i ->
+                longToast("Genial!, entonces vives en" + paises[i] + "cierto?") })
         }
 
         btnProgreso.onClick {
-            progressDialog(message = "Por favor espera un momento...", title = "Cargando datos")
+            progressDialog(message = getString(R.string.main_alert_progreso_mensaje), title = getString(R.string.main_alert_progreso_titulo))
         }
     }
 }
