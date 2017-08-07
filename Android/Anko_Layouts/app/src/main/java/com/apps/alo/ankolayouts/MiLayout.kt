@@ -1,4 +1,4 @@
-package com.apps.alo.layoutsanko
+package com.apps.alo.ankolayouts
 
 import org.jetbrains.anko.*
 import org.jetbrains.anko.sdk25.coroutines.onClick

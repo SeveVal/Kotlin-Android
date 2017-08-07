@@ -1,11 +1,8 @@
-package com.apps.alo.layoutsanko
+package com.apps.alo.ankolayouts
 
 import android.view.View
 import org.jetbrains.anko.*
 
-/**
- * Created by Severiano Valdez on 30/07/17.
- */
 class RelativeLayout : AnkoComponent<MainActivity> {
 
 

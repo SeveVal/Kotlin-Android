@@ -1,5 +1,6 @@
-package com.apps.alo.layoutsanko
+package com.apps.alo.ankolayouts
 
+import com.apps.alo.ankolayouts.MainActivity
 import com.apps.alo.ankolayouts.R
 import org.jetbrains.anko.*
 
