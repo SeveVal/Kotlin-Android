@@ -2,9 +2,9 @@ package secciondos
 
 fun main(args: Array<String>) {
 
-    var nombre : String?
+    val nombre : String?
 
-    nombre = "Alondra"
+    nombre = "Seve"
 
     print(nombre!!)
 

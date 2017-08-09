@@ -1,31 +1,41 @@
 package secciondos
 
-//funcion principal argumentos
 fun main(args: Array<String>) {
 
-    val x : Int = 6
-    val y : Double = 45.67
-    val z = x + y.toInt()
+    var doble = 23.121230981239081203981235
+    var flotante = 23.121230981239081203981235f
+
+    println(doble)
+    println(flotante)
 
 
-   println("El valor de z es: " + z)
+    var x = 2
+    val y = 8
+    x = 9
+    val z = x + y
+
+
+    println("El valor de z es " + z)
 
     val nombre : String = "Seve"
-    var edad : Int = 27
-    var ciudad : String = "Merida"
+    val edad : Int = 27
+    val ciudad : String = "Mérida"
 
-    println("Nombre: " + nombre)
-    println("edad: " + edad)
-    println("ciudad: " + ciudad)
+    println("Mi nombre es $nombre, mi edad es $edad, y vivo en $ciudad")
+    //println("Mi nombre es " + nombre)
+    /*
+    aqui si puedo dejar
+    comentarios
+    multi
+    linea
+     */
 
-    var float : Float = 12.23434645656756f
-    var doble : Double = 12.23434645656756
+    /*
+    String = espera una cadena de carácteres
+    Char = espera un caracter
+    Int = espera valores enteros 0 12 98 129,837,123  -345 -98
+    Double = espera valores numéricos con punto decimal
+    Float = espera valores numéricos con punto decimal
 
-    println(float)
-    println(doble)
-
-    // String = Cadena de caracteres
-    // Int = Números enteros
-    // Float = Números decimales
-    // Double = Números decimales
+     */
 }
