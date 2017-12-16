@@ -3,14 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.apps.alo.fragments.Fragments.DataFragment">
+    tools:context="com.apps.alo.fragments.fragments.DataFragment">
 
     <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <EditText
-            android:id="@+id/editText"
+            android:id="@+id/editTextData"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"

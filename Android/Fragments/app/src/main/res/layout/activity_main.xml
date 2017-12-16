@@ -5,10 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.apps.alo.fragments.Acitivities.MainActivity">
+    tools:context="com.apps.alo.fragments.activities.MainActivity">
 
    <fragment
-       android:name="com.apps.alo.fragments.Fragments.DataFragment"
+       android:name="com.apps.alo.fragments.fragments.DataFragment"
        android:id="@+id/dataFragment"
        tools:layout="@layout/fragment_data"
        android:layout_width="match_parent"
@@ -16,7 +16,7 @@
        android:layout_weight="1" />
 
     <fragment
-        android:name="com.apps.alo.fragments.Fragments.DetailsFragment"
+        android:name="com.apps.alo.fragments.fragments.DetailsFragment"
         android:id="@+id/detailsFragment"
         tools:layout="@layout/fragment_details"
         android:layout_width="match_parent"
