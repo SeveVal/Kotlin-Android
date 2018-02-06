@@ -35,7 +35,6 @@ class MainActivity : AppCompatActivity() {
         buttonSiguiente.setOnClickListener {
             startActivity(this, SecondActivity::class.java)
         }
-
     }
 
     fun startActivity(activity: Activity, nextActivity: Class<*>) {
