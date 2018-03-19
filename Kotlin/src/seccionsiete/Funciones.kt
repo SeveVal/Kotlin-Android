@@ -19,4 +19,15 @@ fun main(args: Array<String>) {
 
     sinParametro()
 
+    val numerico: Int = -756
+
+    println(numerico)
+
+    println(Integer.MAX_VALUE)
+    println(Double.MAX_VALUE)
+    println(Float.MAX_VALUE)
+    println(Short.MAX_VALUE)
+    println(Byte.MAX_VALUE)
+    println(Long.MAX_VALUE)
+
 }
